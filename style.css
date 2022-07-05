@@ -7,4 +7,28 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  font-family: "Bitter", serif;
+  font-family: "Poppins", sans-serif;
 }
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.col {
+  flex-direction: column;
+}
+
+/* Banner area start */
+#banner-area {
+}
+.banner-area {
+}
+.banner-content {
+}
+#banner-area .btn {
+}
+/* Banner area end */
