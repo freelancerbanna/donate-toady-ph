@@ -9,22 +9,36 @@ html {
 body {
   font-family: "Bitter", serif;
 }
+section {
+  width: 100%;
+  height: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
 .container {
-  max-width: 1024px;
+  max-width: 1080px;
   margin: 0 auto;
+  overflow: hidden;
 }
-.row {
-  display: flex;
-  flex-direction: row;
-}
-.col {
-  flex-direction: column;
-}
+/* global css end */
 
 /* Banner area start */
 #banner-area {
+  width: 1440px;
+  height: 669px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
 }
 .banner-area {
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/images/donation5.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .banner-content {
 }
