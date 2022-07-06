@@ -22,6 +22,9 @@ a {
   margin: 0 auto;
   overflow: hidden;
 }
+.row {
+  display: flex;
+}
 /* global css end */
 
 /* Banner area start */
@@ -53,7 +56,6 @@ a {
   max-width: 826px;
   text-align: center;
   color: #fff;
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -68,7 +70,7 @@ a {
   font-family: "Poppins";
   line-height: 28px;
   width: 691px;
-  padding-top: 24px;
+  padding-top: 16px;
 }
 .banner-content .btn {
   background: teal;
@@ -76,6 +78,11 @@ a {
   height: 56px;
   padding: 16px 12px 16px 12px;
   margin-top: 24px;
+  border-radius: 5px;
+  -webkit-border-radius: 5p;
+  -moz-border-radius: 5p;
+  -ms-border-radius: 5p;
+  -o-border-radius: 5p;
 }
 
 /* Banner area end */
