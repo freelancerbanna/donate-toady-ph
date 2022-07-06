@@ -5,8 +5,7 @@ html,
   box-sizing: border-box;
 }
 body {
-  font-family: "Inter", sans-serif;
-  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 section {
   width: 100vw;
@@ -22,8 +21,31 @@ a {
   margin: 0 auto;
   overflow: hidden;
 }
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
 .row {
   display: flex;
+  flex-direction: row;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.text-center {
+  text-align: center;
 }
 /* global css end */
 
@@ -47,27 +69,21 @@ a {
   background-size: cover;
 }
 .banner-area .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100%;
 }
 .banner-content {
   max-width: 826px;
-  text-align: center;
   color: #fff;
-  flex-direction: column;
-  align-items: center;
 }
 .banner-content h1 {
   font-size: 65px;
   font-weight: 700;
-  font-family: "Inter";
+  font-family: "Arima";
   line-height: 79px;
 }
 .banner-content p {
   font-size: 18px;
-  font-family: "Poppins";
+  font-family: "Oswald";
   line-height: 28px;
   width: 691px;
   padding-top: 16px;
