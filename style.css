@@ -347,3 +347,24 @@ p {
   height: 100%;
 }
 /* get updates area ends */
+
+/* footer area start */
+.footer-wrapper {
+  height: 177px;
+  background-color: #0b0d17;
+}
+.footer-wrapper a {
+  width: 158px;
+  height: 44px;
+  color: #ff5959;
+  line-height: 44px;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Arima";
+}
+.footer-wrapper p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
+}
+/* footer area ends */
