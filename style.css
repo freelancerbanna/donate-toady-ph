@@ -109,6 +109,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
+  outline: none;
   border-radius: 5px;
   -webkit-border-radius: 5p;
   -moz-border-radius: 5p;
@@ -303,6 +305,68 @@ p {
   color: #707070;
 }
 /* our donation plan area ends */
+
+/* importance of donation start */
+#importace-donation {
+  padding: 50px 0px;
+}
+.lives-details-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.lives-details {
+  width: 552px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.lives-details button {
+  width: 160px;
+  height: 48px;
+  align-self: center;
+}
+.lives-details-img img {
+  width: 540px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.lives-details h1 {
+  font-size: 35px;
+  color: #000000;
+}
+
+.lives-details-img {
+  width: 550px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.lives-details p {
+  font-size: 16px;
+  color: #666060;
+  margin-bottom: 38px;
+}
+.sec-one .lives-details-img img {
+  width: 565px;
+}
+
+.sec-one-details {
+  width: 540px;
+}
+.sec-one {
+  margin-top: 93px;
+}
+
+.sec-one .lives-details-img {
+  width: 574px;
+}
+/* importance of donation ends */
 
 /* live depends on area start */
 #live-depends {
